@@ -1,0 +1,11 @@
+Starter Kit Hermes Agent completo (15 arquivos): ~/.hermes/skills/starter/. 8 skills: hermes-onboarding (master, v1.0.1) + 7 wizards (passos 0-6). 7 referências: principios-defensivos, comandos-canonicos, checklist-template, dependencias, mapa-ancoras, sobre-o-kit, prompt-upgrade-para-usuario-antigo. Adaptado do OpenClaw v2.5 (Pixel Educacao) para Hermes Agent (Nous Research). Cobre 3 cenarios: vazio, parcial, populado. Fluxo MSG1+MSG2 com Pergunta-Ancora. Usa comandos canonicos Hermes: hermes config, hermes tools, hermes skills, hermes profile, hermes mcp, hermes gateway, hermes cron, hermes webhook, hermes plugins. Principles: P11 (detectar antes), P14 (smoke test).
+§
+Ambiente de onboarding detectado como: parcial (config.yaml + .env + 26 skills existem, mas nenhuma sessao ainda). Iniciou onboarding em 2026-05-29.
+§
+Onboarding passo 0 (wizard-keys) concluído. OpenRouter configurado e validado com modelo nvidia/nemotron-3-super-120b-a12b:free. keys_configured=true.
+§
+Dr. Vinícius é médico + dev full-stack (raro). Stack pessoal: React 19, TypeScript, Tailwind, shadcn/ui, Node/Express 5, Zod, Clean Architecture, Docker Compose, VPS Hostinger com Caddy + Nginx. Repositórios em ghcr.io/luzperformance. Tem análise de exames com OpenRouter no site. Em conversas técnicas pode mergulhar fundo em fisiologia, farmacologia e código.
+§
+Dr. Vinícius se comunica com pacientes em tom informal ("cara", "mano", "tá ligado"), usa analogias do mundo real, compartilha experiência pessoal pra criar identificação. Marca registrada: redução de danos com acesso legal (farmácia, nada de mercado negro). O agente Milon-de-Creta deve espelhar esse estilo.
+§
+Onboarding em andamento (29/05/2026). Passos 0-4 concluídos. Passo 5 (integrações) em andamento — pendente: configurar GitHub repo luzperformance/memoria-hermes para persistir memória do Hermes entre máquinas. Repositório local git init já feito em ~/.hermes/memories/. Falta criar repo remoto e configurar auto-push. Passo 6 (primeira-vitoria) não iniciado. Persona: Milon-de-Creta (AGENTS.md configurado). Profile lab criado. Approvals: permissive.
